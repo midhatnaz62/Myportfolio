@@ -1,0 +1,379 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midhat Naz | Computer Science Student &amp; Aspiring Software Engineer</title>
+  <meta name="description" content="Portfolio of Midhat Naz — Computer Science student at Ziauddin University, aspiring software engineer focused on AI and web development.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary">
+      <a href="#home" class="brand">
+        <span class="brand-bracket">&lt;</span>Midhat<span class="brand-accent">.Naz</span><span class="brand-bracket">/&gt;</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-burger" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#home"><span class="nav-index">01</span>Home</a></li>
+        <li><a href="#about"><span class="nav-index">02</span>About</a></li>
+        <li><a href="#skills"><span class="nav-index">03</span>Skills</a></li>
+        <li><a href="#projects"><span class="nav-index">04</span>Projects</a></li>
+        <li><a href="#experience"><span class="nav-index">05</span>Experience</a></li>
+        <li><a href="#education"><span class="nav-index">06</span>Education</a></li>
+        <li><a href="#contact"><span class="nav-index">07</span>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section id="home" class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-container">
+
+        <div class="hero-text">
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Open to Software Engineering Internships</p>
+          <h1 class="hero-name">Midhat Naz</h1>
+          <p class="hero-title">Computer Science Student <span class="sep">/</span> Aspiring Software Engineer <span class="sep">/</span> AI &amp; Web Development Enthusiast</p>
+          <p class="hero-desc">
+            I build practical, working software — from database-backed web apps to
+            algorithm-driven games — while completing my BS in Computer Science at
+            Ziauddin University. Currently sharpening my skills in AI-assisted
+            development and modern web engineering.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-panel" role="img" aria-label="Code editor preview showing Midhat's developer profile">
+          <div class="panel-bar">
+            <span class="panel-dot dot-red"></span>
+            <span class="panel-dot dot-yellow"></span>
+            <span class="panel-dot dot-green"></span>
+            <span class="panel-file">profile.js</span>
+          </div>
+          <pre class="panel-code"><code><span class="c-key">const</span> <span class="c-var">developer</span> = {
+  <span class="c-prop">name</span>: <span class="c-str">"Midhat Naz"</span>,
+  <span class="c-prop">role</span>: <span class="c-str">"CS Student"</span>,
+  <span class="c-prop">university</span>: <span class="c-str">"Ziauddin University"</span>,
+  <span class="c-prop">focus</span>: [<span class="c-str">"AI"</span>, <span class="c-str">"Web Dev"</span>, <span class="c-str">"SWE"</span>],
+  <span class="c-prop">status</span>: <span class="c-str">"available_for_internships"</span>
+};
+
+<span class="c-fn">console</span>.<span class="c-fn">log</span>(developer.status);
+<span class="c-comment">// → available_for_internships</span></code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section about">
+      <p class="section-eyebrow">// About</p>
+      <h2 class="section-heading">Getting to know me</h2>
+
+      <div class="about-grid">
+        <div class="about-photo-wrap">
+          <div class="about-photo" aria-hidden="true">MN</div>
+        </div>
+
+        <div class="about-content">
+          <p class="about-text">
+            I am a passionate Computer Science student at Ziauddin University with a
+            strong interest in Software Engineering, Artificial Intelligence, and Web
+            Development. I enjoy solving real-world problems by building practical
+            software projects, learning modern technologies, and continuously
+            improving my technical and problem-solving skills. My goal is to become a
+            professional software engineer and contribute to innovative technology
+            solutions.
+          </p>
+
+          <div class="info-cards">
+            <div class="info-card">
+              <span class="info-label">University</span>
+              <span class="info-value">Ziauddin University</span>
+            </div>
+            <div class="info-card">
+              <span class="info-label">Degree</span>
+              <span class="info-value">BS Computer Science</span>
+            </div>
+            <div class="info-card">
+              <span class="info-label">Location</span>
+              <span class="info-value">Karachi, Pakistan</span>
+            </div>
+            <div class="info-card">
+              <span class="info-label">Career Goal</span>
+              <span class="info-value">Software Engineer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section skills">
+      <p class="section-eyebrow">// Skills</p>
+      <h2 class="section-heading">What I work with</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <h3 class="skill-cat">Frontend</h3>
+          <ul class="skill-list">
+            <li><span class="skill-chip">HTML5</span></li>
+            <li><span class="skill-chip">CSS3</span></li>
+            <li><span class="skill-chip">JavaScript</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="skill-cat">Programming Languages</h3>
+          <ul class="skill-list">
+            <li><span class="skill-chip">C</span></li>
+            <li><span class="skill-chip">C++</span></li>
+            <li><span class="skill-chip">Python</span></li>
+            <li><span class="skill-chip">PHP</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="skill-cat">Database</h3>
+          <ul class="skill-list">
+            <li><span class="skill-chip">MySQL</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="skill-cat">Tools</h3>
+          <ul class="skill-list">
+            <li><span class="skill-chip">Git</span></li>
+            <li><span class="skill-chip">GitHub</span></li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section projects">
+      <p class="section-eyebrow">// Projects</p>
+      <h2 class="section-heading">Things I've built</h2>
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3 class="project-title">Lost &amp; Found Portal</h3>
+            <div class="project-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">PHP</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+          <p class="project-desc">
+            A web-based application that allows users to report, search, and recover
+            lost and found items through a user-friendly interface with database
+            support.
+          </p>
+          <a href="#" class="project-link">View on GitHub <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3 class="project-title">Digital Evidence Management System</h3>
+            <div class="project-tags">
+              <span class="tag">Java</span>
+              <span class="tag">OOP</span>
+            </div>
+          </div>
+          <p class="project-desc">
+            A Java-based application for securely managing digital evidence while
+            demonstrating OOP concepts such as inheritance, abstraction,
+            encapsulation, and file handling.
+          </p>
+          <a href="#" class="project-link">View on GitHub <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3 class="project-title">Tetris Game</h3>
+            <div class="project-tags">
+              <span class="tag">C++</span>
+              <span class="tag">DSA</span>
+            </div>
+          </div>
+          <p class="project-desc">
+            A classic Tetris game developed in C++ featuring block movement,
+            collision detection, score tracking, and game-over logic using data
+            structures and algorithms.
+          </p>
+          <a href="#" class="project-link">View on GitHub <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3 class="project-title">Scramble Word Game</h3>
+            <div class="project-tags">
+              <span class="tag">C++</span>
+              <span class="tag">OOP</span>
+            </div>
+          </div>
+          <p class="project-desc">
+            An interactive word scramble game where players rearrange shuffled
+            letters to form correct words. The game includes multiple levels,
+            scoring, and increasing difficulty.
+          </p>
+          <a href="#" class="project-link">View on GitHub <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="project-card">
+         <div class="project-top">
+           <h3 class="project-title">Career Pilot – AI Resume &amp; Career Simulation Platform</h3>
+           <div class="project-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">AI</span>
+            </div>
+          </div>
+          <p class="project-desc">
+             An AI-powered career guidance platform that helps students
+             build ATS-friendly resumes, receive personalized career recommendations,
+             prepare for mock interviews, and explore career paths through intelligent career simulations.
+          </p>
+          <a href="#" class="project-link">View on GitHub <span aria-hidden="true">→</span></a>
+        </article>
+      
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section id="experience" class="section experience">
+      <p class="section-eyebrow">// Experience</p>
+      <h2 class="section-heading">Where I've worked</h2>
+
+      <div class="experience-card">
+        <div class="experience-head">
+          <h3 class="experience-role">Virtual Intern</h3>
+          <span class="experience-company">FlyRank</span>
+        </div>
+        <ul class="experience-list">
+          <li>Worked with Generative AI tools to support real project workflows</li>
+          <li>Learned and applied Prompt Engineering techniques</li>
+          <li>Produced AI-assisted content generation for business use cases</li>
+          <li>Completed Digital Marketing tasks alongside technical work</li>
+          <li>Applied AI tools to solve practical business problems</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section id="education" class="section education">
+      <p class="section-eyebrow">// Education</p>
+      <h2 class="section-heading">My academic path</h2>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-stage">Current</span>
+            <h3 class="timeline-title">BS Computer Science</h3>
+            <p class="timeline-sub">Ziauddin University</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-stage">Completed</span>
+            <h3 class="timeline-title">Intermediate</h3>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-stage">Completed</span>
+            <h3 class="timeline-title">Matriculation</h3>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section contact">
+      <p class="section-eyebrow">// Contact</p>
+      <h2 class="section-heading">Let's build something</h2>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-lead">
+            I'm currently looking for internship and entry-level software
+            engineering opportunities. Feel free to reach out — I'd love to hear
+            from you.
+          </p>
+
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:midhatnaz62@gmail.com" class="contact-value">midhatnaz62@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/midhatnaz62" target="_blank" rel="noopener" class="contact-value">github.com/midhatnaz</a>
+            </li>
+            <li>
+              <span class="contact-label">LinkedIn</span>
+              <a href="www.linkedin.com/in/midhat-naz-31879a352" target="_blank" rel="noopener" class="contact-value">linkedin.com/in/midhatnaz</a>
+            </li>
+            <li>
+              <span class="contact-label">Location</span>
+              <span class="contact-value">Karachi, Pakistan</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+          <div class="form-row">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me a bit more..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <p>&copy; 2026 Midhat Naz</p>
+    <p>Designed &amp; Developed by Midhat Naz</p>
+  </footer>
+
+</body>
+</html>
