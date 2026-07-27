@@ -4,6 +4,10 @@ Welcome to my personal portfolio website.
 
 This portfolio showcases my skills, academic projects, and experience as a Computer Science student at Ziauddin University.
 
+## 🌐 Live Website
+
+https://github.com/midhatnaz62/Myportfolio
+
 ## 🚀 Features
 
 - Responsive Design
@@ -19,7 +23,6 @@ This portfolio showcases my skills, academic projects, and experience as a Compu
 
 - HTML5
 - CSS3
-- Javascript
 
 ## 📂 Projects Included
 
