@@ -6,7 +6,7 @@ This portfolio showcases my skills, academic projects, and experience as a Compu
 
 ## 🌐 Live Website
 
-https://github.com/midhatnaz62/Myportfolio
+https://midhat-naz-portfolio.netlify.app/
 
 ## 🚀 Features
 
